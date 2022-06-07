@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('../partials/head'); %>
+
+  <body id="login" style="background-image: linear-gradient(to top, white 40%,transparent 100%), url('<%= backgroundImage %>')">
+
+    <article>
+      <h1>Login</h1>
+      <p>If you wish to save your favorite restaurants, please enter your email below</p>
+    </article>
+
+    <form method="post">
+      <label for="email">Email</label>
+      <input type="email" name="email" id="" placeholder="example@mail.com">
+      <input type="submit" value="Let's start!">
+    </form>
+  </body>
+
+  <script src="/login.js"></script>
+
+</html> 
